@@ -1,0 +1,163 @@
+.main{
+/* .main::-webkit-scrollbar{ */
+    position: relative;
+    width: 300px;
+    height: 550px;
+    border: 8px solid black;
+    border-radius: 30px;
+    overflow: hidden;
+    margin-left: 500px;
+    overflow: scroll;
+    display: inline-block;
+    overflow: scroll;
+    scrollbar-width: none;
+    position: fixed; 
+    /* display: none; */
+    background-image: url('./pic2.png');
+}
+.item1{
+    position: absolute;
+      height: 70px;
+      background:rgb(49, 226, 49);
+      color: white;
+      /* display: flex; */
+      align-items: center;
+      padding-top: 20px;
+      box-sizing: border-box;
+      font-weight:bold;
+      z-index: 1;
+      position:sticky;
+}
+i{
+    margin-left: 15px;
+}
+span{
+    margin-left: 10px;
+    font-size: larger;
+    height: 20px;
+}
+.item2{
+    position: fixed;
+    /* bottom: 0;
+    left: 0;
+    right: 0; */
+    width: 300px;
+    height: 50px;
+    /* border: 2px solid black; */
+    background-color: white;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-top: 430px;
+    /* margin-right: 10px; */
+    border-radius: 25px;
+    z-index: 1;   
+}
+input{
+    width: 100px; ;
+    margin-left: 15px;
+}
+.Date p{
+    /* background-color: white; */
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 100px;
+    background-color: lightcoral;
+    height: 25px;
+    font-size: large;
+    border-radius: 6px;
+    position: sticky;
+    z-index: -1;
+}
+
+p{
+    margin-left: 15px;
+    cursor: pointer;
+}
+.Vineeth, .Vineeth1, .Vineeth2, .Vineeth3, .Vineeth4 {
+    margin-top: 0px;
+    margin-left: 150px;
+}
+.Virat{
+    margin-right: 130px;
+    font-size: medium;
+}
+/* .Vineeth1{
+    margin-left: 130px;
+} */
+.Date1 p{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-color: lightcoral;
+    height: 25px;
+    font-size: large;
+    border-radius: 6px;
+    position: sticky;
+    z-index: -1;
+}
+
+/* .Vineeth2{
+    margin-left: 130px;
+} */
+.Date2 p{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-color: lightcoral;
+    height: 25px;
+    font-size: large;
+    border-radius: 6px;
+    position:sticky;
+    z-index: -1;
+}
+.Virat1{
+    margin-right: 130px;
+    font-size: medium;
+}
+/* .Vineeth3{
+    margin-left: 130px;
+} */
+.Date3 p{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-color: lightcoral;
+    height: 25px;
+    font-size: large;
+    border-radius: 6px;
+    position:sticky;
+    z-index: -1;
+}
+.Virat2{
+    margin-right: 130px;
+    font-size: medium;
+}
+.Date4 p{
+    display: inline-block;
+    margin-top: 80px;
+    margin-left: 100px;
+    background-color: lightcoral;
+    height: 25px;
+    font-size: large;
+    border-radius: 6px;
+    position:sticky;
+    z-index: -1;
+}
+/* .Vineeth4{
+    margin-left: 130px; 
+}  */
+.Virat3{
+    margin-right: 130px;
+    font-size: medium;
+}
+.Date, .Date1, .Date2, .Date3, .Date4{
+    position: sticky;
+    top: 10px;
+}
+/* .dp{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+} */
