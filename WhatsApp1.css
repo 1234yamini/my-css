@@ -26,7 +26,7 @@
       box-sizing: border-box;
       font-weight:bold;
       z-index: 1;
-      position:sticky;
+      position:fixed;
 }
 i{
     margin-left: 15px;
